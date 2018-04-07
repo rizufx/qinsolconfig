@@ -1,13 +1,16 @@
 spring:
   application:
     name: nbapp
+    
 server:
   port: 8304
+  
 spring:
   mvc:
     view:
       prefix: = /views/
       suffix: = .html
+      
 eureka:
   client:
     registerWithEureka: true
