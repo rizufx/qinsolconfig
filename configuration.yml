@@ -1,0 +1,11 @@
+server:
+  port: 8303
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serverUrl:
+      defaultZone: http://localhost:8301/eureka
+  instance:
+    localhost
