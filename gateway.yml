@@ -4,12 +4,19 @@ server:
 zuul:
   prefix: /api
   routes:
-    db-service:
-      path: /db-service/**
+    newBusiness:
+      path: /newBusiness/**
       url: http://localhost:8300
-    stock-service:
-      path: /stock-service/**
+    policyAdmin:
+      path: /policyAdmin/**
       url: http://localhost:8301
-    nbapp:
-      path: /**
+    agent:
+      path: /agent/**
+      url: http://localhost:8302
+    accounting:
+      path: /accounting/**
+      url: http://localhost:8303
+    configuration:
+      path: /configuration/**
       url: http://localhost:8304
+      
