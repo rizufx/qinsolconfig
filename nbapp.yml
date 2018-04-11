@@ -1,9 +1,7 @@
 spring:
   application:
     name: nbapp
-  data:
-    mongodb:
-      uri: mongodb://rizwan:jazakallah@cluster0-shard-00-00-96yp2.mongodb.net:27017,cluster0-shard-00-01-96yp2.mongodb.net:27017,cluster0-shard-00-02-96yp2.mongodb.net:27017/nbapp?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin    
+  
 server:
   port: 8304
         
