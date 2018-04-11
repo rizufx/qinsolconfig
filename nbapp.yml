@@ -9,7 +9,7 @@ insbot:
   s3:
     queueName: "EnrollmentFileQueue.fifo"
     queueUrl: "https://sqs.us-west-2.amazonaws.com/697233158446/EnrollmentFileQueue.fifo"
-    cornSchedule: "*/1 * * * *"
+    cornSchedule: "* /1 * * * *"
 
 eureka:
   client:
