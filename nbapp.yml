@@ -4,7 +4,11 @@ spring:
   
 server:
   port: 8304
-        
+
+insbot:
+  s3:
+    cornSchedule: "*/5 * * * *"
+
 eureka:
   client:
     registerWithEureka: true
