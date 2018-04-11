@@ -1,0 +1,16 @@
+server:
+  port: 8306
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://rizwan:jazakallah@cluster0-shard-00-00-96yp2.mongodb.net:27017,cluster0-shard-00-01-96yp2.mongodb.net:27017,cluster0-shard-00-02-96yp2.mongodb.net:27017/policyAdmin?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8301/eureka
+  instance:
+      hostname: localhost
