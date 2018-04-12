@@ -8,8 +8,8 @@ server:
 insbot:
   s3:
     region: "us-east-1"
-    accessKey: "AKIAJUWMWS6UFCXJP3MQ"
-    secretKey: "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"
+    accessKey: "AKIAJJRCITOI76BNXPXA"
+    secretKey: "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"
     queueName: "EnrollmentFileQueue.fifo"
     queueUrl: "https://sqs.us-east-1.amazonaws.com/697233158446/EnrolmentFileIncoming"
     cornSchedule: "0 0/1 * * * ?"
