@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: marketBotUI
+  
+server:
+  port: 8304
+
+insbot:
+  s3:
+    region: "us-east-1"
+    queueName: "EnrollmentFileQueue.fifo"
+    queueUrl: "https://sqs.us-east-1.amazonaws.com/697233158446/EnrolmentFileIncoming"
+    cornSchedule: "0 0/1 * * * ?"
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8301/eureka
+  instance:
+      hostname: localhost
