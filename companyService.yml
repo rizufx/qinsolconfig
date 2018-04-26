@@ -1,6 +1,6 @@
 server:
   port: 8307
-
+  
 spring:
   data:
     mongodb:
