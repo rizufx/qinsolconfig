@@ -11,6 +11,5 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: https://insbot-registry.cfapps.io/
-  instance:
-      hostname: localhost
+      defaultZone: https://insbot-registry.cfapps.io
+ 
